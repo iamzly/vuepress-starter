@@ -1,0 +1,21 @@
+{
+  "name": "workflowdoc",
+  "version": "1.0.0",
+  "description": "Workflow & Pj development document",
+  "main": "index.js",
+  "author": "zly",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-medium-zoom": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-cursor-effects": "^1.1.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
